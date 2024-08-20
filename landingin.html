@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airline Landing Page</title>
+    <link rel="stylesheet" href="style6.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">ARCH Emirates</div>
+            <ul class="navlinks">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Destinations</a></li>
+                <li><a href="#">Flights</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="body">
+        <div class="bodycontent">
+            <h1>Explore the World with </h1>
+            <h2 style="font-size: 30px; font-family: marcellus">
+                ARCH Emirates
+            </h2>
+            <p>Your gateway to amazing destinations around the globe.</p>
+            <a href="#search" class="searchbtn">Search Flights</a>
+        </div> 
+    </section>
+
+    <section id="search" class="flightsearch">
+        <h2>Find Your Flight</h2>
+      <center>  <form action="#" id="forml">
+            <div class="formlists" >
+                <label for="from" id="formlis">From</label>
+                <input type="text" id="from" name="from" placeholder="City or Airport">
+            </div>
+            <div class="formlists">
+                <label for="to">To</label>
+                <input type="text" id="to" name="to" placeholder="City or Airport">
+            </div>
+            <div class="formlists">
+                <label for="departure">Departure Date</label>
+                <input type="date" id="departure" name="departure">
+            </div>
+            <div class="formlists">
+                <label for="return">Return Date</label>
+                <input type="date" id="return" name="return">
+            </div>
+            <div class="formlists">
+                <label for="passengers">Passengers</label>
+                <input type="number" id="passengers" name="passengers" min="1" value="1">
+            </div>
+            <button type="submit" class="searchsubmit">Book Flights</button>
+        </form></center>
+    </section>
+
+    <section class="destinations">
+        <h2>Popular Destinations</h2>
+        <div class="destinationbox">
+            <div class="destination">
+                <img src="Paris1.jpg" id="Paris" height="150px" alt="Destination 1">
+                <h3>Paris, France</h3>
+            </div>
+            <div class="destination">
+                <img src="nightstok.jpg" alt="Destination 2">
+                <h3>Tokyo, Japan</h3>
+            </div>
+            <div class="destination">
+                <img src="newyork.jpg" alt="Destination 3">
+                <h3>New York, USA</h3>
+            </div>
+            <div class="destination">
+                <img src="newzealand.jpg" alt="Destination 4">
+                <h3>Wellington,NEW ZEALAND</h3>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="socialmedia">
+            <a href="#"><i class='bx bxl-facebook' style='color:#ffffff'  ></i> </a>
+            <a href="#"><i class='bx bxl-twitter' style='color:#ffffff' ></i> </a>
+            <a href="#"><i class='bx bxl-instagram' style='color:#ffffff' ></i> </a>
+        </div>
+        <div class="footer">
+            <p>&copy; 2024 AirFly. All rights reserved.</p>
+            
+        </div>
+    </footer>
+</body>
+</html>

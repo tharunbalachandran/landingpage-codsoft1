@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    font-family: montserrat;
+    color: #333;
+}
+
+header {
+    background-image: linear-gradient(to right,orange,blue);
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: 800;
+    font-family: marcellus;
+    padding-left: 25px;
+}
+
+.navlinks {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.navlinks li a {
+    color: white;
+    text-decoration: none;
+    font-family: montserrat;
+    border-bottom: 0px solid white;
+}
+
+.navlinks li a:hover {
+    border-bottom: 3px;
+}
+
+.body {
+    background-image: url('airline.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding-top: 100px ;
+    padding-bottom: 100px;
+
+}
+
+.body h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.body p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    padding-bottom: 45px;
+}
+
+.searchbtn {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+.searchbtn:hover{
+    background-color: orange;
+}
+
+.flightsearch {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.flightsearch h2 {
+    margin-bottom: 30px;
+}
+
+.formlists {
+    margin-bottom: 15px;
+}
+
+.formlists label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.formlists input {
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+}
+
+.searchsubmit {
+    background-color: #004080;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.searchsubmit:hover{
+    background-color: #2d6caa;
+}
+
+.destinations {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.destinations h2 {
+    margin-bottom: 30px;
+}
+
+.destinationbox {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.destination {
+    margin: 20px;
+    text-align: center;
+}
+
+.destination img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.socialmedia {
+    margin-top: 10px;
+}
+
+.socialmedia a {
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+}
+#search{
+    background-image: radial-gradient(#f7d1c6,#c4c1e0);
+}
+#forml{
+    border-radius: 3%;
+    box-shadow: 2px 2px 5px rgb(126, 81, 81), 2px 2px 6px rgb(126, 81, 81) inset;
+    width: 450px;
+    align-items: center;
+}
+#paris img{
+    height: -1px;
+}
